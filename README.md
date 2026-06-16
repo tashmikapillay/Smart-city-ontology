@@ -86,4 +86,4 @@ The HermiT 1.4.3 reasoner confirmed logical consistency — no unsatisfiable cla
 
 ## 👥 Contributors
 
-Vyasa Aiyer · Josh Goodwin · Tashmika Pillay · Jeryn Naidoo
+Tashmika Pillay · Vyasa Aiyer · Josh Goodwin · Jeryn Naidoo
