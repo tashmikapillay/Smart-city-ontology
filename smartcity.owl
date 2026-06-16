@@ -1,0 +1,1958 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tashy/ontologies/2026/4/transport.owl/"
+     xml:base="http://www.semanticweb.org/tashy/ontologies/2026/4/transport.owl/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:smartcity="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#accessesServicesOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#accessesServicesOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#alerts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#alerts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#analyses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#analyses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#analysesDataFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#analysesDataFrom"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesVia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesVia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#controlledBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#controlledBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#controls -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#controls"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#convertsEnergyGeneratedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#convertsEnergyGeneratedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#enablesCommunicationAcross -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#enablesCommunicationAcross"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#from"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#generates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#generates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#governsDataHandlingIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#governsDataHandlingIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#integrates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#integrates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isADomainOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isADomainOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAVirtualRepresentationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAVirtualRepresentationOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isControlledBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isControlledBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isManagedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isManagedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isPoweredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isPoweredBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isProvidedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isProvidedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isSecuredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isSecuredBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#maintains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#maintains"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#manages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#manages"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#measuresEnergyProducedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#measuresEnergyProducedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#monitors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#monitors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#operates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#operates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#optimises -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#optimises"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#processes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#processes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#produces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#produces"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#secures -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#secures"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#stores -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#stores">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#storesDataIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#storesDataIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#storesEnergyFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#storesEnergyFrom"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#transmitsDataVia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#transmitsDataVia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#triggers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#triggers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#uses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#usesDataFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#usesDataFrom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AdvancedMeteringInfrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AdvancedMeteringInfrastructure">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AmbulanceDispatchSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AmbulanceDispatchSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AssetManagementSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AssetManagementSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#maintains"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterDistributionNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#BatteryStorageSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#BatteryStorageSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#storesEnergyFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributedEnergyResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Citizen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Citizen">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#accessesServicesOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ClinicalDecisionSupportSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ClinicalDecisionSupportSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#uses"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#HealthAnalyticsPlatform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#CloudPlatform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#CloudPlatform">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#from"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#stores"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Data"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ConnectedVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ConnectedVehicle">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficManagementSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#CybersecuritySystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#CybersecuritySystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#secures"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Data"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DataAnalyticsEngine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DataAnalyticsEngine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#analyses"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Data"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#from"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#CloudPlatform"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DemandResponseSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DemandResponseSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#manages"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DigitalTwin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DigitalTwin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAVirtualRepresentationOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCityInfrastructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributedEnergyResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributedEnergyResource">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributionAutomationSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributionAutomationSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#controls"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Substation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EdgeComputingNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EdgeComputingNode">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#from"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#processes"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Data"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ElectronicHealthRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ElectronicHealthRecord">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EnergyConsumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EnergyConsumption"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EnergyManagementSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EnergyManagementSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartMeter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#controls"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DemandResponseSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#FleetManagementSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#FleetManagementSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PassengerInformationSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#manages"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PublicTransitSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#HealthAnalyticsPlatform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#HealthAnalyticsPlatform">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#analysesDataFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#HospitalInformationSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#storesDataIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#CloudPlatform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#HospitalInformationSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#HospitalInformationSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#manages"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ElectronicHealthRecord"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#from"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanSensorNetwork"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#integrates"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Data"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#LeakDetectionSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#LeakDetectionSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#monitors"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterDistributionNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#LoadBalancingSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#LoadBalancingSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Micro-mobility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Micro-mobility">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTransportation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Municipality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Municipality">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#operates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ParkingManagementSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ParkingManagementSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTransportation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PassengerInformationSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PassengerInformationSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PublicTransitSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PatientData -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PatientData"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PrivacyFramework -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PrivacyFramework">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#governsDataHandlingIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PublicTransitSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PublicTransitSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTransportation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PumpStation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PumpStation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterDistributionNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Real-timeDataStream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Real-timeDataStream"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#RemotePatientMonitoringSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#RemotePatientMonitoringSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesWith"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ElectronicHealthRecord"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isSecuredBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#CybersecuritySystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#usesDataFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WearableHealthSensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Reservoir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Reservoir">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterManagement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ScadaSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ScadaSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#controls"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PumpStation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#controls"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterTreatmentPlant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#generates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Real-timeDataStream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isProvidedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Municipality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCityInfrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCityInfrastructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#generates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Real-timeDataStream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isADomainOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#transmitsDataVia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isADomainOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#transmitsDataVia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartInverter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartInverter">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributedEnergyResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartMeter">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AdvancedMeteringInfrastructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#monitors"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EnergyConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartPharmacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartPharmacy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTicketing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTicketing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PublicTransitSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTransportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTransportation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isADomainOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#transmitsDataVia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterManagement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isADomainOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#transmitsDataVia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterMeter">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesVia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterDistributionNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#monitors"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#StormwaterManagementSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#StormwaterManagementSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterManagement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Substation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Substation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TelemedicinePlatform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TelemedicinePlatform">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesVia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#5gNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#uses"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ElectronicHealthRecord"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficManagementSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficManagementSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#generates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Real-timeDataStream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTransportation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSensor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficManagementSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSignalController -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSignalController">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#usesDataFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanCity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanEnvironment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanEnvironment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isManagedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Municipality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanSensorNetwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanSensorNetwork">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#VariableMessageSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#VariableMessageSign">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficManagementSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#VideoDetectionSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#VideoDetectionSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#VirtualPowerPlant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#VirtualPowerPlant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#integrates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributedEnergyResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isManagedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EnergyManagementSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WastewaterTreatmentPlant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WastewaterTreatmentPlant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterManagement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterConsumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterConsumption"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterDistributionNetwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterDistributionNetwork">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterManagement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterPipeNetwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterPipeNetwork">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterDistributionNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterQualitySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterQualitySensor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterTreatmentPlant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterTreatmentPlant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterTreatmentPlant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#isAComponentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterManagement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WearableHealthSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WearableHealthSensor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communicatesVia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#5gNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#generates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PatientData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#5gNetwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#5gNetwork">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#enablesCommunicationAcross"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#adaptiveSignalControl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#adaptiveSignalControl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSignalController"/>
+        <smartcity:optimises rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#trafficFlow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#aiDiagnosticTool -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#aiDiagnosticTool">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ClinicalDecisionSupportSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ambulanceDispatchSystemA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ambulanceDispatchSystemA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AmbulanceDispatchSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#assetManagementSystemA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#assetManagementSystemA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AssetManagementSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#automatedPrescriptionDispenser -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#automatedPrescriptionDispenser">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartPharmacy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#automatedSubstation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#automatedSubstation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Substation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#autonomousVehicle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#autonomousVehicle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ConnectedVehicle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#bicycleSharingSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#bicycleSharingSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Micro-mobility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#biometricIdentificationSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#biometricIdentificationSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#HospitalInformationSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#bloodPressureMonitor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#bloodPressureMonitor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WearableHealthSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#busRapidTransit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#busRapidTransit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PublicTransitSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#carbonEmissionMonitor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#carbonEmissionMonitor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#carbonNeutralTarget -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#carbonNeutralTarget">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EnergyManagementSystem"/>
+        <smartcity:optimises rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#carbonNeutralTarget"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#cctvCamera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#cctvCamera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#VideoDetectionSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#chlorineSensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#chlorineSensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterQualitySensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communityHealthKiosk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#communityHealthKiosk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare"/>
+        <smartcity:uses rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#electronicHealthRecordA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#congestionPricingSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#congestionPricingSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficManagementSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#contactlessPaymentTerminal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#contactlessPaymentTerminal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTicketing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#desalinationPlant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#desalinationPlant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterTreatmentPlant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#distributedEnergyResourceA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#distributedEnergyResourceA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributedEnergyResource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#elderlyCareMonitoringSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#elderlyCareMonitoringSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#electricVehicle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#electricVehicle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ConnectedVehicle"/>
+        <smartcity:uses rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#electricVehicleChargingStation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#electricVehicleChargingStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#electricVehicleChargingStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#electronicHealthRecordA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#electronicHealthRecordA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ElectronicHealthRecord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#elevatedStorageTank -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#elevatedStorageTank">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Reservoir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#emergencyAlertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#emergencyAlertSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartWaterManagement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#emergencyState -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#emergencyState">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+        <smartcity:triggers rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#emergencyAlertSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#floodDetectionSensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#floodDetectionSensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#StormwaterManagementSystem"/>
+        <smartcity:monitors rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#highFloodRisk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#flowSensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#flowSensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#LeakDetectionSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#glucoseMonitor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#glucoseMonitor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WearableHealthSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#greenInfrastructure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#greenInfrastructure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#StormwaterManagementSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#gridElectricity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#gridElectricity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#heartRateMonitor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#heartRateMonitor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WearableHealthSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#highFloodRisk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#highFloodRisk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#StormwaterManagementSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#highPopulationDensityArea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#highPopulationDensityArea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanEnvironment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#homeEnergyManagementSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#homeEnergyManagementSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#EnergyManagementSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#inductiveLoopDetector -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#inductiveLoopDetector">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#industrialZone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#industrialZone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanEnvironment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#infraredSensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#infraredSensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#leakDetectionSystemA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#leakDetectionSystemA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#LeakDetectionSystem"/>
+        <smartcity:alerts rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#emergencyAlertSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#lightRailTransit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#lightRailTransit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PublicTransitSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#lithium-ionBattery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#lithium-ionBattery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#BatteryStorageSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#medicalImagingSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#medicalImagingSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#HospitalInformationSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#metroRail -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#metroRail">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#PublicTransitSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#microgrid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#microgrid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+        <smartcity:isPoweredBy rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#distributedEnergyResourceA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#navigationApplication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#navigationApplication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficManagementSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#netMeteringSytsem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#netMeteringSytsem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+        <smartcity:measuresEnergyProducedBy rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#solarPhotovoltaicPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#normalOperatingConditions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#normalOperatingConditions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#offPeakHours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#offPeakHours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTransportation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#outageManagementSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#outageManagementSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#peakTrafficHours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#peakTrafficHours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTransportation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#phSensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#phSensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterQualitySensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#plannedMaintenanceWindow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#plannedMaintenanceWindow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartCity"/>
+        <smartcity:isManagedBy rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#assetManagementSystemA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#populationHealth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#populationHealth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare"/>
+        <smartcity:monitors rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#publicHealthSurveillanceSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#portableWater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#portableWater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterPipeNetwork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#powerLineCommunication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#powerLineCommunication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#IotPlatform"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#pressureSensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#pressureSensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#LeakDetectionSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#publicHealthSurveillanceSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#publicHealthSurveillanceSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#radarSensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#radarSensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#rainSensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#rainSensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#StormwaterManagementSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#recycledWasteWater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#recycledWasteWater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterPipeNetwork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#residentialNeighbourhood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#residentialNeighbourhood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#UrbanEnvironment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ride-sharingPlatform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ride-sharingPlatform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Micro-mobility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#scadaSystemA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#scadaSystemA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ScadaSystem"/>
+        <smartcity:monitors rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#normalOperatingConditions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#sewerNetwork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#sewerNetwork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WastewaterTreatmentPlant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartAmbulance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartAmbulance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#AmbulanceDispatchSystem"/>
+        <smartcity:communicatesWith rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ambulanceDispatchSystemA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartAppliance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartAppliance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+        <smartcity:controlledBy rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#homeEnergyManagementSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartEnergyGridA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartEnergyGridA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartEnergyGrid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartInverterA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartInverterA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartInverter"/>
+        <smartcity:convertsEnergyGeneratedBy rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#solarPhotovoltaicPanel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartMeterA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartMeterA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartMeter"/>
+        <smartcity:communicatesVia rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#powerLineCommunication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartParkingSensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#smartParkingSensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ParkingManagementSystem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#solarPhotovoltaicPanel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#solarPhotovoltaicPanel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributedEnergyResource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#substationA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#substationA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Substation"/>
+        <smartcity:produces rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#gridElectricity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#trafficFlow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#trafficFlow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartTransportation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#trafficManagementSystemA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#trafficManagementSystemA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficManagementSystem"/>
+        <smartcity:monitors rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#peakTrafficHours"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#trafficManagementSystemB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#trafficManagementSystemB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#TrafficManagementSystem"/>
+        <smartcity:monitors rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#offPeakHours"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#transformer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#transformer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#Substation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#turbiditySensor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#turbiditySensor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterQualitySensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#vaccinationManagementSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#vaccinationManagementSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#SmartHealthcare"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#vehicle-to-infrastructureCommunication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#vehicle-to-infrastructureCommunication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ConnectedVehicle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#vehicle-to-vehicleCommunication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#vehicle-to-vehicleCommunication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#ConnectedVehicle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#wasteWaterTreatmentpPlantA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#wasteWaterTreatmentpPlantA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WastewaterTreatmentPlant"/>
+        <smartcity:produces rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#recycledWasteWater"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#waterRecyclingSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#waterRecyclingSystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WastewaterTreatmentPlant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#waterTreatmentPlantA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#waterTreatmentPlantA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#WaterTreatmentPlant"/>
+        <smartcity:produces rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#portableWater"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#windTurbine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#windTurbine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vyasa/ontologies/2026/4/smartcity.owl#DistributedEnergyResource"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
